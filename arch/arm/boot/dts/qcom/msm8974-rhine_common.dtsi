@@ -1042,10 +1042,6 @@
 	qcom,mdss-pref-prim-intf = "dsi";
 };
 
-&mdss_fb0 {
-	qcom,mdss-fb-splash-logo-enabled;
-};
-
 &mdss_dsi0 {
 	vdd-supply = <&pm8941_lvs3>;
 	qcom,platform-lane-config = [];
